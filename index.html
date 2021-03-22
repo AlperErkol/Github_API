@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github API</title>
+    <link rel="stylesheet" href="references/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="wrapper">
+            <div class="head">
+                <h1 id="header">Github API</h1>
+                <small id="infoText">Enter an correct username to see user information.</small>
+            </div>
+            <div class="search">
+                <input type="text" id="searchArea" placeholder="Search user...">
+                <div class="mt1"><span class="searchBtn"><i class="fa fa-search" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="main inactive">
+                <div class="profile_photo">
+                    <img id="pic" src="" alt="">
+                    <p id="name"></p>
+                    <small id="username"></small>
+                </div>
+                <div class="profile_information">
+                    <p id="bio"></p>
+                    <div class="number_information">
+                        <div>
+                            <p id="followers"></p><b> Followers</b>
+                        </div>
+                        <div>
+                            <p id="following"></p><b> Following</b>
+                        </div>
+                        <div>
+                            <p id="repos"></p><b> Repos</b>
+                        </div>
+                    </div>
+                    <div class="allRepos">
+                        <div id="repList">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="references/js/app.js"></script>
+</body>
+</html>
